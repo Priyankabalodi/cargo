@@ -1,15 +1,17 @@
 import React from 'react'
+import Header from '../components/Header'
 
+export default function Home() {
+  return (
+    <div >
+      <Header />
+      <p className='mx-auto text-4xl font-semibold font-serif mt-10 flex justify-center'>WELCOME TO CarGo!!</p>
+      <p className='ml-8 mt-12'>This car selling website is an online platform where users can browse, buy, and sell vehicles.This website typically features a homepage with search functionality and filters to help users find vehicles based on their preferences. Listings for vehicles include details such as photos, make, model, price, and seller contact information. Users can click on listings to view more information about a specific vehicle, including features, condition, and history. Seller tools allow users to create and manage listings, communicate with potential buyers, and track inquiries. Some websites may offer payment and financing options, as well as integration with vehicle history report services. Overall, car selling websites aim to provide a convenient and secure platform for individuals to buy and sell vehicles online.</p>
+      <p className='ml-8 mt-5'>In today's competitive automotive market, it's imperative for car selling websites to prioritize customer satisfaction by providing an unparalleled user experience. From the moment a visitor lands on the homepage, our focus is on creating a seamless journey that captivates and engages. We understand that buying a car is a significant decision, and we strive to make it as effortless and enjoyable as possible. Our user-friendly interface offers intuitive search functionality and advanced filtering options, ensuring that customers can easily find the perfect vehicle to meet their needs. Each listing is meticulously curated, featuring high-quality images, detailed descriptions, and transparent pricing information. We prioritize trust and transparency, empowering customers with access to vehicle history reports and user reviews. Our commitment to exceptional service extends beyond the transaction, with dedicated support available to assist customers every step of the way. At our car selling website, we're not just selling cars; we're creating memorable experiences that leave a lasting impression.</p>
+      <p className='ml-8 mt-5'>To attract customers to buy cars from our website, we focus on creating an enticing and trustworthy online experience. Our website features meticulously crafted listings that showcase each vehicle with high-quality images, detailed descriptions, and transparent pricing. We prioritize user-friendliness, ensuring seamless navigation and search functionality for customers to easily find their desired cars. Building trust is paramount, which is why we provide comprehensive information including vehicle history reports and user reviews. Through effective SEO strategies and targeted online marketing efforts, we increase our visibility and reach potential buyers across various channels. Personalized recommendations and responsive customer support further enhance the customer journey, addressing individual needs and inquiries promptly. Additionally, we offer value-added services such as warranty options and virtual tours to add value and differentiate ourselves from competitors. By consistently delivering exceptional service and fostering trust, we attract customers to choose our website as their preferred destination for purchasing cars online.</p>
+      <div >
 
-const Home = () =>{
-  
-  return(
-    
-<div className=' h-screen bg-pink-400'>
-<h className="text-white flex justify-center text-center">Welcome to Cargo!!</h>
-<img src='\cargo.svg' alt='img'></img>
-</div>
-
+      </div>
+    </div>
   )
 }
-export default Home;
